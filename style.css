@@ -1,0 +1,773 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+body{
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   
+    
+}
+
+.hamburger {
+    display: none;
+}
+
+.navbar{
+    width: 100%;
+    background-color: rgb(21, 96, 67);
+    color: white;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky; 
+    top: 0;
+    z-index: 1000; 
+    height: 50px;
+    
+}
+.navbar-logo{
+    margin-top:-10px;
+    height: 25px;
+    width: 20px;
+ }
+
+.navbar ul{
+    list-style: none;
+    gap: 30px;
+    display: flex;
+    padding-top: 10px;
+    margin-top:-10px; 
+}
+
+.navbar ul li{
+    position: relative;
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+
+
+}
+
+.background{
+    height: 613px;
+    background: rgba(62, 59, 59, 0.495)url(/assets/public/Hero-section.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+
+.sales-pitch{
+    color: #fff;
+    width: 600px;
+    text-align: right;
+    margin-right: 85px;
+}
+
+.sales-pitch button{
+   background-color: rgb(21, 96, 67); 
+   height: 40px;
+   width: 145px;
+   border-radius: 25px;
+   border-style: none;
+   margin-top: 5px;
+   margin-left: 75px;
+}
+
+.sales-pitch button a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.more-pitch h1{
+    font-size: 70px;
+    text-align: center;
+    color:  rgb(21, 96, 67);
+    position: relative;
+    top: 25px;
+    
+}
+.mosquitodrop{
+    float: left;
+    padding-left: 240px;
+    margin-top: 55px;
+   
+    
+}
+.mosquitodrop img{
+    width: 76%;
+    height: 418px;
+    border-radius: 5px;
+   
+    
+}
+.secondo {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+    margin-top: 125px;
+}
+
+.secondo h2 {
+    font-size: 1.8rem;
+    text-align: left;
+    
+}
+
+.newcolumn {
+    display: flex;
+    align-items: center;
+    left: 10px;
+    margin-top: 10px;
+}
+.newcolumn img { 
+   height: 300px;
+   border-radius: 5px;  
+     
+}
+
+.secondo h2{
+    margin-bottom: 0px;
+}
+
+.newcolumn ol p{
+    float: left;
+}
+
+
+.textmachina {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.textmachina ol {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.textmachina span {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+div figure .mosquito-text{
+   width: 76%;
+   height: 120px;
+   background-color:rgb(21, 96, 67);
+   border-radius: 0 0 1px 1px;
+   position: relative;
+   bottom: 124px;
+   color: white;
+   font-family: sans-serif;
+   text-align: center;
+   line-height: 15px;
+   
+   
+}
+
+div figure .mosquito-text h3{
+   font-weight: 800;
+   font-size: 15px;
+   
+}
+div figure .mosquito-text p{
+    font-size: 13px;
+}
+
+div figure .mosquito-text img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 45px;
+    width: 45px;
+    
+    
+}
+
+.about-us{
+    width: 100%;
+    height:420px ;
+    background-color:rgb(245, 247, 249) ;
+    display: flex;
+    
+}
+.about-us img{
+   position: relative;
+
+}
+
+.abtustxt h2{
+    margin-left: 10px;
+}
+.abtustxt{
+    margin-top: 85px;
+    padding-left: 190px;
+    max-width: 760px;
+    text-align: left;
+    
+}
+.about-us h2{
+ text-align: left;
+ color:rgb(21, 96, 67); 
+ font-size: 30px;
+    
+
+
+}
+
+.about-us button{
+    margin-top:30px;
+    height: 40px;
+    width: 60px;
+    border-radius: 10px;
+    background-color: rgb(21, 96, 67);
+    border-style: none;
+    
+    
+}
+.about-us button a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+.about-us img{
+   width: 520px;
+   position: absolute;
+   margin-top: 25px;
+   right: 170px;
+}
+
+.big-green{
+    margin: 10px 0px 60px 150px;
+    background-color: rgb(21, 96, 67);
+    height: 350px;
+    width: 80%;
+    border-style: none;
+    border-radius: 15px; 
+    text-align: center;  
+    padding-top: 75px;
+    color: white;
+}
+.big-green h1{
+    color: white;
+    font-size: 30px;
+}
+.big-green button a{
+    text-decoration: none;
+    color: rgb(21, 96, 67) ;
+    
+}
+
+.big-green button{
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+
+
+.order h1{
+font-size: 55px;
+text-align: center;
+color:  rgb(21, 96, 67);
+margin-bottom: 10px;
+}
+.order figure{
+    margin-left: 350px;
+}
+
+.form-container{
+    margin-left: 350px;
+    margin-right: 370px;
+
+}
+
+.form-container .form-groupfinal{
+    gap: 10px;
+    width: 204%;
+}
+
+.astrix{
+    color: red;
+}
+form{
+    display: grid;
+    grid-column: 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+label{
+    margin-left: -3px;
+    padding: 7px;
+}
+
+
+input{
+    padding: 10px;
+    border-radius: 8px solid grey;
+    width: 100%;
+    border: 0.5px solid rgb(204, 198, 198);
+
+}
+.form-groupfinal{
+    width: 100%;
+}
+
+
+#order-id input{
+ background-color: rgba(218, 217, 217, 0.377);
+ border: 0.5px solid rgb(204, 198, 198);
+
+}
+
+#measurement input{
+    background-color: rgba(218, 217, 217, 0.377);
+    border: 0.5px solid rgb(204, 198, 198);
+    pointer-events: none;
+    
+}
+
+#price input{
+    background-color: rgba(218, 217, 217, 0.377);
+    border: 0.5px solid rgb(204, 198, 198);
+    pointer-events: none;
+}
+
+#total-price input{
+    background-color: rgba(218, 217, 217, 0.377);
+    border: 0.5px solid rgb(204, 198, 198);
+    pointer-events: none;
+}
+
+.back{
+    background-color:  rgb(204, 198, 198);
+    height: 37px;
+    width: 90px;
+    position: relative;
+    padding: 7px;
+    border-radius: 10px;
+    left: 685px; 
+    margin-top: 20px;
+    border: 1.8px solid  rgb(21, 96, 67);;
+    
+    
+}
+.back a{
+    text-decoration: none;
+    color: rgb(21, 96, 67);
+    font-size: 15px;
+    font-weight: 550;
+  
+}
+
+.order-me{
+    background-color: rgb(21, 96, 67); 
+    height: 38px;
+    border-radius: 10px;
+    border-style: none;
+    position: absolute;
+    left: 800px;
+    margin-top: 19px;
+    
+}
+
+.order-me a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    padding: 17px;
+}
+
+footer{
+    background-color:  rgb(21, 96, 67); 
+    width: 100%;
+    height: 220px;
+    margin-top: 50px;
+    
+}
+.fcontainer1{
+    position: relative;
+    margin-left: 15px;
+   
+}
+
+.fcontainer1 img{
+    position: absolute;
+    left: 70px;
+    margin-top: 35px ;
+    height: 40px;
+}
+.fcontainer1 figcaption{
+    position: absolute;
+    left: 65px;
+    margin-top: 100px ; 
+
+}
+
+.icons{
+    display: flex;
+    gap: 25px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 80px;
+}
+.icons img{
+    height: 25px;
+
+}
+
+.fcontainer2{
+    display: inline;
+    padding: 40px;
+    height: 200px;
+   text-align: center;
+   margin-left: 700px;
+
+   
+}
+
+.fcontainer2 ul{
+    list-style-type: none;
+    color: white;
+}
+
+.fcontainer2 ul li{
+   padding: 7px;   
+}
+.fcontainer2 ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.fcontainer3{
+    color: white;
+    margin-left:85%;
+    display: inline-block;
+    margin-top: -500px;
+    
+   
+}
+
+.fcontainer3 ul{
+    top: -35px;
+    position: relative;
+
+}
+.fcontainer3 ul li{
+    list-style: none;
+    padding: 10px;
+   
+}
+.nav-options{
+    display: block;
+}
+
+.primo{
+    display: flex;
+}
+
+.newcolumn{
+    display: flex;
+}
+
+.one2{
+    object-fit: contain;
+}
+
+
+@media (max-width: 1200px) {
+    .mosquitodrop {
+        padding-left: 120px;
+    }
+    
+    .abtustxt {
+        padding-left: 100px;
+    }
+    
+    .about-us img {
+        right: 50px;
+        width: 450px;
+    }
+    
+}
+
+@media (max-width: 992px) {
+    .sales-pitch {
+        width: 450px;
+        margin-right: 50px;
+    }
+    .newcolumn {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .mosquitodrop {
+        padding-left: 80px;
+    }
+    
+    .secondo img {
+        height: 300px;
+    }
+    
+    .about-us {
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    
+    .about-us img {
+        position: relative;
+        width: 80%;
+        margin: 20px auto;
+        right: auto;
+    }
+    
+    .abtustxt {
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-top: 30px;
+    }
+    
+    .big-green {
+        margin-left: 50px;
+        width: calc(100% - 100px);
+    }
+    
+    .order figure .form-container {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .sales-pitch {
+        width: 80%;
+        margin: 0 auto;
+        text-align: left;
+        padding: 5px;
+    }
+    
+    .more-pitch h1 {
+        font-size: 2.5rem;
+    }
+    
+    .primo {
+        flex-direction: column;
+    }
+    div figure .mosquito-text{
+        left: 20px;
+        width: 90%;
+    }
+    .mosquitodrop {
+        padding-left: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .mosquitodrop img {
+        margin-top: 15px;
+        width: 90%;
+        height: auto;
+    }
+    
+    .secondo {
+        margin-top: 30px;
+    }
+    
+    .secondo img {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+    }
+    
+    .textmachina {
+        float: none;
+        margin: 20px auto;
+        text-align: center;
+    }
+    
+    .about-us img {
+        width: 90%;
+    }
+    
+    .big-green {
+        height: auto;
+        padding: 40px 20px;
+        margin: 20px auto;
+        width: 90%;
+    }
+    
+    .order h1 {
+        font-size: 2.5rem;
+    }
+    
+    .order figure {
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .ImgOrder {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .object-figure{
+        top: 10px;
+    }
+    .object-figure figcaption{
+      text-align: left;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+    
+    .form-container {
+        margin: 20px auto;
+        width: 90%;
+    }
+    
+    form {
+        grid-template-columns: 1fr;
+    }
+    
+    .order-me, .back {
+        position: static;
+        margin: 20px auto;
+        display: block;
+    }
+    
+    .order-me {
+        background-color: rgb(21, 96, 67);
+        margin-bottom: 10px;
+    }
+    
+    footer{
+        height: auto;
+        padding: 20px 0;
+    }
+    footer ul{
+        display: flex;
+        flex-direction: column;
+        margin-top:60px ;
+    }
+
+    footer #contactinfo{
+        margin-left: 50px;
+        margin-top: 2px;
+        text-align: center;
+
+    }
+   
+
+    
+    .fcontainer1 .fcontainer2 .fcontainer3 .icons {
+        position: static;
+        margin: 20px auto;
+        text-align: center;
+    }
+    
+    .fcontainer1 img {
+        position: static;
+        margin: 10px auto;
+    }
+    
+    .fcontainer1 figcaption {
+        position: static;
+        margin: 10px auto;
+    }
+    
+    .icons {
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .fcontainer2 .fcontainer3 {
+        display: block;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .form-container .form-groupfinal{
+        gap: 10px;
+        width: 100%;
+    }
+    
+} 
+
+@media (max-width: 576px) {
+    .navbar {
+        padding: 10px 15px;
+    }
+    .navbar .nav-options{
+        display: none;
+    }
+    
+    .sales-pitch h1 {
+        font-size: 1.2rem;
+        text-align: left;
+
+    }
+    
+    .more-pitch h1 .order h1 {
+        font-size: 1.8rem;
+    }
+    
+    .abtustxt {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .form-container {
+        width: 95%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
